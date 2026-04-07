@@ -1,0 +1,19 @@
+h3{
+    color: firebrick;
+    background-color: bisque;
+    font-size: 25px;
+}
+h4{
+    color: darkmagenta;
+    font-size: 25px;
+}
+h5{
+    color: burlywood;
+    background-color: black;
+    font-size: 25px;
+}
+p{
+    color: chartreuse;
+    background-color: rgb(255, 98, 0);
+    font-size: 25px;
+}
