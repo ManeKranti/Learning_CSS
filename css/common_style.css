@@ -1,0 +1,82 @@
+.heading1{
+    color: chartreuse;
+    background-color: black;
+}
+.heading2{
+    color: blanchedalmond;
+    background-color: black;
+}
+.para1{
+    color: blueviolet;
+}
+.para2{
+    color: crimson;
+}
+
+#head1{
+    color: blue;
+    font-size: 40px;
+    background-color: darkgoldenrod;
+}
+#head2{
+    color: aqua;
+    background-color: black;
+}
+
+.head3{
+    color: darkgreen;
+}
+#head3{
+    color: firebrick;
+}
+
+.head_index{
+    color: bisque;
+    background-color: black;
+}
+.head_size{
+    font-size: 50px;
+}
+#head_index{
+    color: darkmagenta;
+    background-color: burlywood;
+}
+
+
+
+
+Text Format
+
+
+.t_transform_upper{
+    text-transform: uppercase;
+}
+.t_transform_lower{
+    text-transform: lowercase;
+}
+.t_transform_capitalize{
+    text-transform: capitalize;
+}
+
+.t_right{
+    text-align: right;
+}
+.t_center{
+    text-align: center;
+}
+
+.t_decor_underline{
+    text-decoration: underline;
+}
+.t_decor_overline{
+    text-decoration: overline;
+}
+.t_decor_linethrough{
+    text-decoration: line-through;
+}
+.text_decor{
+    text-decoration: underline overline line-through;
+}
+.t_indent{
+    text-indent: 250px;
+}
