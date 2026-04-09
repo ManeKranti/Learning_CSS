@@ -47,7 +47,9 @@
 
 Text Format
 
-
+.t_left{
+    text-align: left;
+}
 .t_transform_upper{
     text-transform: uppercase;
 }
@@ -57,13 +59,13 @@ Text Format
 .t_transform_capitalize{
     text-transform: capitalize;
 }
-
-.t_right{
-    text-align: right;
-}
 .t_center{
     text-align: center;
 }
+.t_right{
+    text-align: right;
+}
+
 
 .t_decor_underline{
     text-decoration: underline;
@@ -79,4 +81,75 @@ Text Format
 }
 .t_indent{
     text-indent: 250px;
+}
+
+
+.t_word_space{
+    word-spacing: 50px;
+}
+.t_letter_space{
+    letter-spacing: 20px;
+}
+.t_para_line_height{
+    line-height: 30px;
+}
+
+
+.t_shadow1{
+    color: brown;
+    text-shadow: 3px 4px 5px black;
+    font-size: 50px;
+}
+.t_shadow2{
+    color: green;
+    text-shadow: 3px 5px 3px greenyellow;
+    font-size: 50px;
+}
+.t_shadow3{
+    color: gold;
+    text-shadow: 4px 5px 5px gray;
+    font-size: 50px;
+}
+
+
+.img1_b_shadow{
+    box-shadow: 3px 4px 5px rosybrown;
+    width: 350px;
+    height: 350px;
+}
+.img2_b_shadow{
+    box-shadow: 5px 5px 3px grey;
+    width: 350px;
+    height: 350px;
+}
+.img3_b_shadow{
+    box-shadow: 5px 5px 3px grey;
+    width: 350px;
+    height: 350px;
+}
+.img4_b_shadow{
+    box-shadow: 5px 5px 3px green;
+    width: 350px;
+    height: 350px;
+}
+
+.img_b_shadow{
+    box-shadow: 6px 7px 5px red;
+    width: 350px;
+    height: 350px;
+}
+.img_d_shadow{
+    filter: drop-shadow(3px 5px 5px red);
+    width: 350px;
+    height: 350px;
+}
+.img2_d_shadow{
+    filter: drop-shadow(2px 4px 6px rgb(255, 230, 0));
+    width: 350px;
+    height: 350px;
+}
+.img3_d_shadow{
+    filter: drop-shadow(4px 4px 4px #f2c203fd);
+    width: 350px;
+    height: 350px;
 }
