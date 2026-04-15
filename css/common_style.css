@@ -352,6 +352,10 @@ h1{
 }
 
 
+
+
+
+
 .flex_item{
     background-color: indianred;
     width: 200px;
@@ -359,6 +363,9 @@ h1{
     font-size: 40px;
     margin: 10px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .flex_container{
     list-style: none;
@@ -411,9 +418,104 @@ h1{
     justify-content: space-around;
 }
 .flex_ite{
-     width: 200px;
+    width: 200px;
     height: 150px;
     font-size: 40px;
     margin: 10px;
     padding: 10px;
+}
+
+
+
+
+
+
+/* Pseudo Effects */
+h1:hover{
+    color: chocolate;
+    background-color: black;
+    font-size: 70px;
+    text-shadow: 3px 2px 4px orange;
+}
+.heading1_hover:hover{
+    color: blue;
+    background-color: aqua;
+    font-size: 70px;
+    text-shadow: 3px 2px 4px aquamarine;
+}
+h3:active{
+    color: black;
+    font-size: 70px;
+    font-family: cursive;
+    cursor: pointer;
+}
+input:focus{
+    background-color: aqua;
+    border:10px solid black;
+    color: crimson;
+}
+a:visited{
+    color: red;
+}
+
+
+/* Pseudo Elements */
+p::first-letter{
+    font-size: 30px;
+    color: blue;
+}
+p::first-line{
+    color: rgb(11, 238, 19);
+}
+::selection{
+    color: darkcyan;
+    background-color: cyan;
+}
+
+
+
+
+
+/* Transform */
+.box{
+   width: 200px;
+   height: 200px;
+   background-color: brown;
+   margin: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin-left: 50px;
+   margin-bottom: 20px;
+   transition: transform 1s linear 500ms;
+}
+.transform_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 40px;
+}
+.box21:hover{
+    transform: translate(130px, 130px);
+}
+.box22:hover{
+    transform: translateX(30px);
+}
+.box23:hover{
+    transform: translateY(40px);
+}
+.box24:hover{
+    transform: rotate(360deg);
+    background-color: cornflowerblue;
+}
+.box25:hover{
+    transform: skewX(10deg);
+    /* transform: skewY(10deg); */
+}
+.box26:hover{
+    transform: scale(2);
+}
+.box27:hover{
+    transform: rotate(50deg) scale(1.5) translateY(40px);
 }
