@@ -519,3 +519,31 @@ p::first-line{
 .box27:hover{
     transform: rotate(50deg) scale(1.5) translateY(40px);
 }
+
+
+
+
+
+
+
+/* Image On Hover Zoom */
+.img-wrapper{
+    height: 400px;
+    width: 500px;
+    border: 8px solid green;
+    position: relative;
+    overflow: hidden;
+}
+.inner-img{
+    height: 100%;
+    width: 100%;
+    transition: 5s;
+    object-fit: cover;
+}
+.inner-img:hover{
+    transform: scale(1.5);
+}
+
+
+
+
